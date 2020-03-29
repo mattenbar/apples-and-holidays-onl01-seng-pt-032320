@@ -65,6 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
       string = string.split("_")
       string.map {|x| x.capitalize}
       string = string.join(" ")
+      puts string + ":"
     else
     puts string.capitalize! + ":"
     end
